@@ -1,0 +1,109 @@
+**Question 1:**
+```csharp
+int x = 10;
+if (x = 5)
+    Console.WriteLine("True");
+else
+    Console.WriteLine("False");
+```
+**Answer: Error **
+
+**Question 2:**
+```csharp
+int a = 10, b = 20, c = 30;
+if (a > b && a > c)
+    Console.WriteLine("A is largest");
+else if (b > a && b > c)
+    Console.WriteLine("B is largest");
+else
+    Console.WriteLine("C is largest");
+```
+**Answer: C is the Larges **
+
+**Question 3:**
+```csharp
+int num = 2;
+switch (num + 1) {
+    case 1: Console.Write("One"); break;
+    case 2: Console.Write("Two"); break;
+    case 3: Console.Write("Three");
+    case 4: Console.Write("Four"); break;
+    default: Console.Write("Default");
+}
+```
+**Answer:  Three **
+
+**Question 4:**
+```csharp
+int x = 0;
+if (x)
+    Console.WriteLine("Hello");
+else
+    Console.WriteLine("World");
+```
+**Answer:World **
+
+**Question 5:**
+```csharp
+bool isTrue = false;
+if (isTrue = true)
+    Console.WriteLine("Yes");
+else
+    Console.WriteLine("No");
+```
+**Answer:**
+
+**Question 6:**
+```csharp
+int x = 5, y = 10;
+if (x > 0)
+    if (y < 10)
+        Console.WriteLine("A");
+    else
+        Console.WriteLine("B");
+else
+    Console.WriteLine("C");
+```
+**Answer:**
+
+**Question 7:**
+```csharp
+int a = 5;
+if (a > 0)
+    if (a < 10)
+        Console.WriteLine("X");
+    else if (a > 2)
+        Console.WriteLine("Y");
+    else
+        Console.WriteLine("Z");
+```
+**Answer:**
+
+**Question 8:**
+```csharp
+int x = 5, y = 10;
+if (x++ > 5 && y++ < 10)
+    Console.WriteLine(x, y);
+else
+    Console.WriteLine(x, y);
+```
+**Answer:**
+
+**Question 9:**
+```csharp
+double x = 0.1 + 0.2;
+if (x == 0.3)
+    Console.WriteLine("Equal");
+else
+    Console.WriteLine("Not Equal");
+```
+**Answer:**
+
+**Question 10:**
+```csharp
+decimal x = 0.1m + 0.2m;
+if (x == 0.3m)
+    Console.WriteLine("Equal");
+```
+**Answer:**
+
