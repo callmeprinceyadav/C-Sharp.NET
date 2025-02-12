@@ -18,7 +18,7 @@ else if (b > a && b > c)
 else
     Console.WriteLine("C is largest");
 ```
-**Answer: C is the Larges **
+**Answer: C is the Largest **
 
 **Question 3:**
 ```csharp
@@ -51,7 +51,7 @@ if (isTrue = true)
 else
     Console.WriteLine("No");
 ```
-**Answer:**
+**Answer: NO **
 
 **Question 6:**
 ```csharp
@@ -64,7 +64,7 @@ if (x > 0)
 else
     Console.WriteLine("C");
 ```
-**Answer:**
+**Answer:B **
 
 **Question 7:**
 ```csharp
@@ -77,7 +77,7 @@ if (a > 0)
     else
         Console.WriteLine("Z");
 ```
-**Answer:**
+**Answer:Y **
 
 **Question 8:**
 ```csharp
@@ -87,7 +87,7 @@ if (x++ > 5 && y++ < 10)
 else
     Console.WriteLine(x, y);
 ```
-**Answer:**
+**Answer: 6,10 **
 
 **Question 9:**
 ```csharp
@@ -97,7 +97,7 @@ if (x == 0.3)
 else
     Console.WriteLine("Not Equal");
 ```
-**Answer:**
+**Answer: NOT EQUAL**
 
 **Question 10:**
 ```csharp
@@ -105,5 +105,5 @@ decimal x = 0.1m + 0.2m;
 if (x == 0.3m)
     Console.WriteLine("Equal");
 ```
-**Answer:**
+**Answer: EQUAL **
 
