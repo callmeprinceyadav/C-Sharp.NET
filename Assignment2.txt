@@ -1,1 +1,209 @@
-Hello
+
+class Program
+{
+    // 1. Sum of Array Elements
+    public static int ArraySum(int[] arr)
+    {
+        int sum = 0;
+        foreach (int num in arr)
+            sum += num;
+        return sum;
+    }
+
+    // 2. Find the Missing Number
+    public static int FindMissNumber(int[] arr, int n)
+    {
+        int totalSum = n * (n + 1) / 2;
+        int arraySum = arr.Sum();
+        return totalSum - arraySum;
+    }
+
+    // 3. Reverse an Array in Place
+    public static void ReverseArray(int[] arr)
+    {
+        int left = 0, right = arr.Length - 1;
+        while (left < right)
+        {
+            (arr[left], arr[right]) = (arr[right], arr[left]);
+            left++; right--;
+        }
+    }
+
+    // 4. First Non-Repeating Character
+    public static char FirstUniqueChar(string str)
+    {
+        Dictionary<char, int> charCount = new Dictionary<char, int>();
+        foreach (char c in str)
+            charCount[c] = charCount.ContainsKey(c) ? charCount[c] + 1 : 1;
+
+        foreach (char c in str)
+            if (charCount[c] == 1) return c;
+
+        return '_'; // If no unique character is found
+    }
+
+    // 5. Find the Majority Element
+    public static int MajorityElement(int[] arr)
+    {
+        int candidate = arr[0], count = 0;
+        foreach (int num in arr)
+        {
+            if (count == 0) candidate = num;
+            count += (num == candidate) ? 1 : -1;
+        }
+        return candidate;
+    }
+
+    // 6. Rotate an Array by K Positions
+    public static void RotateArray(int[] arr, int k)
+    {
+        k %= arr.Length;
+        Array.Reverse(arr, 0, arr.Length);
+        Array.Reverse(arr, 0, k);
+        Array.Reverse(arr, k, arr.Length - k);
+    }
+
+    // 7. Find the Longest Consecutive Sequence
+    public static int LongestConsecutive(int[] arr)
+    {
+        HashSet<int> numSet = new HashSet<int>(arr);
+        int longestStreak = 0;
+
+        foreach (int num in numSet)
+        {
+            if (!numSet.Contains(num - 1))
+            {
+                int currentNum = num, currentStreak = 1;
+                while (numSet.Contains(currentNum + 1))
+                {
+                    currentNum++;
+                    currentStreak++;
+                }
+                longestStreak = Math.Max(longestStreak, currentStreak);
+            }
+        }
+        return longestStreak;
+    }
+
+    // 8. Find K-th Smallest Element
+    public static int KthSmallestElement(int[] arr, int k)
+    {
+        Array.Sort(arr);
+        return arr[k - 1];
+    }
+
+    // 9. Maximum Product of Three Numbers
+    public static int MaxProductOfThree(int[] arr)
+    {
+        Array.Sort(arr);
+        int n = arr.Length;
+        return Math.Max(arr[n - 1] * arr[n - 2] * arr[n - 3], arr[0] * arr[1] * arr[n - 1]);
+    }
+
+    // 10. Merge Two Sorted Arrays
+    public static int[] MergeSortedArrays(int[] arr1, int[] arr2)
+    {
+        return arr1.Concat(arr2).OrderBy(x => x).ToArray();
+    }
+
+    // 11. Find Pair with Given Sum (Two-Pointer)
+    public static int[] TwoSumSorted(int[] arr, int target)
+    {
+        int left = 0, right = arr.Length - 1;
+        while (left < right)
+        {
+            int sum = arr[left] + arr[right];
+            if (sum == target) return new int[] { left, right };
+            if (sum < target) left++;
+            else right--;
+        }
+        return new int[] { -1, -1 };
+    }
+
+    // 12. Find the Peak Element
+    public static int FindPeakElement(int[] arr)
+    {
+        for (int i = 1; i < arr.Length - 1; i++)
+            if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1])
+                return arr[i];
+        return -1;
+    }
+
+    // 13. Check If an Array is a Subset of Another
+    public static bool IsSubset(int[] arr1, int[] arr2)
+    {
+        HashSet<int> set = new HashSet<int>(arr1);
+        return arr2.All(set.Contains);
+    }
+
+    // 14. Trapping Rain Water
+    public static int TrapRainWater(int[] height)
+    {
+        int left = 0, right = height.Length - 1, leftMax = 0, rightMax = 0, water = 0;
+        while (left < right)
+        {
+            if (height[left] < height[right])
+            {
+                if (height[left] >= leftMax) leftMax = height[left];
+                else water += leftMax - height[left];
+                left++;
+            }
+            else
+            {
+                if (height[right] >= rightMax) rightMax = height[right];
+                else water += rightMax - height[right];
+                right--;
+            }
+        }
+        return water;
+    }
+
+    // 15. Find the Smallest Window Containing All Characters
+    public static string MinWindowSubstring(string s, string t)
+    {
+        if (s.Length < t.Length) return "";
+
+        Dictionary<char, int> tFreq = t.GroupBy(c => c).ToDictionary(g => g.Key, g => g.Count());
+        Dictionary<char, int> sFreq = new Dictionary<char, int>();
+        int left = 0, minLen = int.MaxValue, start = 0, matched = 0;
+
+        for (int right = 0; right < s.Length; right++)
+        {
+            char rightChar = s[right];
+            if (tFreq.ContainsKey(rightChar))
+            {
+                if (!sFreq.ContainsKey(rightChar)) sFreq[rightChar] = 0;
+                sFreq[rightChar]++;
+                if (sFreq[rightChar] <= tFreq[rightChar]) matched++;
+            }
+
+            while (matched == t.Length)
+            {
+                if (right - left + 1 < minLen)
+                {
+                    minLen = right - left + 1;
+                    start = left;
+                }
+
+                char leftChar = s[left++];
+                if (tFreq.ContainsKey(leftChar))
+                {
+                    if (sFreq[leftChar] == tFreq[leftChar]) matched--;
+                    sFreq[leftChar]--;
+                }
+            }
+        }
+
+        return minLen == int.MaxValue ? "" : s.Substring(start, minLen);
+    }
+
+    // Main function to test methods
+    static void Main()
+    {
+        Console.WriteLine(ArraySum(new int[] { 1, 2, 3, 4, 10, 11 })); 
+        Console.WriteLine(FindMissNumber(new int[] { 1, 2, 4, 5, 6 }, 6)); 
+        Console.WriteLine(FirstUniqueChar("swiss")); 
+        Console.WriteLine(MajorityElement(new int[] { 3, 3, 4, 2, 3, 3, 3, 1 })); 
+        Console.WriteLine(TrapRainWater(new int[] { 0,1,0,2,1,0,1,3,2,1,2,1 })); 
+    }
+}
