@@ -1,0 +1,15 @@
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\bin\Debug\net9.0\Array.exe
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\bin\Debug\net9.0\Array.deps.json
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\bin\Debug\net9.0\Array.runtimeconfig.json
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\bin\Debug\net9.0\Array.dll
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\bin\Debug\net9.0\Array.pdb
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\Array.AssemblyInfoInputs.cache
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\Array.AssemblyInfo.cs
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\Array.csproj.CoreCompileInputs.cache
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\Array.sourcelink.json
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\Array.dll
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\refint\Array.dll
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\Array.pdb
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\Array.genruntimeconfig.cache
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Array\obj\Debug\net9.0\ref\Array.dll

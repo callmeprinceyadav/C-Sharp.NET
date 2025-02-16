@@ -1,0 +1,15 @@
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\bin\Debug\net9.0\Inheritence.exe
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\bin\Debug\net9.0\Inheritence.deps.json
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\bin\Debug\net9.0\Inheritence.runtimeconfig.json
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\bin\Debug\net9.0\Inheritence.dll
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\bin\Debug\net9.0\Inheritence.pdb
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\Inheritence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\Inheritence.AssemblyInfoInputs.cache
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\Inheritence.AssemblyInfo.cs
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\Inheritence.csproj.CoreCompileInputs.cache
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\Inheritence.sourcelink.json
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\Inheritence.dll
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\refint\Inheritence.dll
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\Inheritence.pdb
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\Inheritence.genruntimeconfig.cache
+C:\Users\deepa\Desktop\Feb Prep\C-Sharp.NET\DotNet Evaluation\Coding\Inheritence\obj\Debug\net9.0\ref\Inheritence.dll
