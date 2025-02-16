@@ -5,9 +5,18 @@
 
 
 
+
+
+
+
+
 ### **2. What is the default access modifier for members of a class in C#?**
 
 Ans -  b) `private`
+
+
+
+
 
 
 
