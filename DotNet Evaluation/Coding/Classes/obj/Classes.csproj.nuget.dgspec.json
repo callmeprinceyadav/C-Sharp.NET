@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\classes\\Classes.csproj": {}
+    "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\Classes\\Classes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\classes\\Classes.csproj": {
+    "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\Classes\\Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\classes\\Classes.csproj",
+        "projectUniqueName": "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\Classes\\Classes.csproj",
         "projectName": "Classes",
-        "projectPath": "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\classes\\Classes.csproj",
+        "projectPath": "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\Classes\\Classes.csproj",
         "packagesPath": "C:\\Users\\deepa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\classes\\obj\\",
+        "outputPath": "C:\\Users\\deepa\\Desktop\\Feb Prep\\C-Sharp.NET\\DotNet Evaluation\\Coding\\Classes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
