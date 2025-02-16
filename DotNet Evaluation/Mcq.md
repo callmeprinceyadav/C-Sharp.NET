@@ -1,29 +1,23 @@
 ### **1. Which of the following is the correct syntax to define a class in C#?**
 
-- Ans - a) `class MyClass { }`
-- b) `class: MyClass { }`
-- c) `class MyClass() { }`
-- d) `MyClass class { }`
+ Ans -  a) `class MyClass { }`
+ 
 
----
+
 
 ### **2. What is the default access modifier for members of a class in C#?**
 
-- a) `public`
-Ans - b) `private`
-- c) `protected`
-- d) `internal`
+Ans -  b) `private`
 
----
+
+
 
 ### **3. Which of the following is true about constructors in C#?**
 
-- a) A constructor has a return type.
-Ans - b) A constructor can have the same name as the class.
-- c) Constructors cannot be overloaded.
-- d) A constructor must always be public.
+Ans -  b) A constructor can have the same name as the class.
 
----
+
+
 
 ### **4. What is the result of the following code?**
 
@@ -41,39 +35,31 @@ class Program {
 
 ```
 
-- a) Error, obj is not initialized.
-- b) 0
-Ans - c) 5
-- d) Compilation error.
+Ans - c)` 5`
 
----
+
+
 
 ### **5. What is the purpose of the `this` keyword in C#?**
 
-- a) It refers to the class itself.
-Ans - b) It is used to access the instance members of the current object.
-- c) It refers to the static members of the class.
-- d) It is used to inherit a class.
+Ans -  b) It is used to access the instance members of the current object.
 
----
+
+
 
 ### **6. Which of the following is an example of a property in a C# class?**
 
-- a) `public int x;`
-Ans - b) `public int x { get; set; }`
-- c) `public void SetX(int value) { x = value; }`
-- d) `public void X(int value) { x = value; }`
+Ans -  b) `public int x { get; set; }`
 
----
+
+
 
 ### **7. What will happen if you try to access a private member of a class from outside that class in C#?**
 
-Ans - a) Compilation error
-- b) The member will be accessed, but a warning will be shown
-- c) Runtime exception
-- d) It will be allowed if the member is inside a method
+Ans -  a)` Compilation error`
 
----
+
+
 
 ### **8. Which of the following statements is correct about the C#.NET code snippet given below?**
 
@@ -87,27 +73,21 @@ str = j.ToString();
 
 ```
 
-1. This is a perfectly workable code snippet.
-2. Since `int` is a primitive, we cannot use `new` with it.
-3. Since an `int` is a primitive, we cannot call the method `ToString()` using it.
-4. `i` will get created on stack, whereas `j` will get created on heap.
-5. Both `i` and `j` will get created on heap.
 
----
+Ans - 2) Since `int` is a primitive, we cannot use `new` with it.
+
+
+
 
 ### **9. Which of the following statements are correct about the `this` reference?**
 
-1. `this` reference can be modified in the instance member function of a class.
-Ans - 2. Static functions of a class never receive the `this` reference.
-Ans - 3. Instance member functions of a class always receive a `this` reference.
-4. `this` reference continues to exist even after control returns from an instance member function.
-Ans - 5. While calling an instance member function we are not required to pass the `this` reference explicitly.
+Ans -  2. Static functions of a class never receive the `this` reference.
+       3. Instance member functions of a class always receive a `this` reference.
+       5. While calling an instance member function we are not required to pass the `this` reference explicitly.
 
----
+
 
 ### **10. Which of the following is the correct way to create an object of the `class Sample`?**
 
-Ans - 1. `Sample s = new Sample();`
-2. `Sample s;`
-3. `Sample s; s = new Sample();`
-4. `s = new Sample();`
+Ans -  1. `Sample s = new Sample();`
+       3. `Sample s; s = new Sample();`
