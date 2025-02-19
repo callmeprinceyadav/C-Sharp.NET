@@ -5,7 +5,7 @@ Compare and explain the output.
 How does parallel processing improve performance in this scenario?
 
 
----Ans---
+---Answer---
 
 Bonus Challenge---
 
