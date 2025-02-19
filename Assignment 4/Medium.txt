@@ -1,0 +1,54 @@
+Section 2: Intermediate Questions
+
+1. What is an infinite loop? Provide examples using for, while, and do-while.
+Ans -   for (;;)
+        {
+            // infinite loop
+        }
+
+        // while loop
+        while (true)
+        {
+            // infinite loop
+        }
+
+        // do-while loop
+        do
+        {
+            // loop body
+        } while (true);
+
+
+2. How does the break statement work inside loops?
+Ans = break exits the loop immediately when encountered, skipping the rest of the loop's body.
+
+3. What is the role of the continue statement in loops?
+Ans = continue skips the current iteration of the loop and proceeds with the next iteration.
+
+4. How can you exit multiple nested loops at once?
+Ans = To exit multiple nested loops, you can use a labeled break statement.
+
+
+5. What is the difference between break and return inside a loop?
+Ans = Difference between break and return inside a loop:
+      Break exits the loop only, while return exits the entire function
+      or method containing the loop.
+
+6. How do you iterate through an array using loops?
+Ans = Iterating through an array using loops:
+        You can use for or foreach loops to iterate through arrays in C#.
+
+7. Write a C# program to find the largest and smallest number in an array using loops.
+Ans =   int[] numbers = { 3, 7, 2, 9, 4 };
+        int smallest = numbers[0];
+        int largest = numbers[0];
+
+        foreach (var number in numbers)
+        {
+            if (number < smallest)
+                smallest = number;
+            if (number > largest)
+                largest = number;
+        }
+
+        Console.WriteLine($"Smallest: {smallest}, Largest: {largest}");

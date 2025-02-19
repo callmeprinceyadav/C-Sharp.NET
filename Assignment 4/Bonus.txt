@@ -1,0 +1,15 @@
+Bonus Challenge
+Write a C# program that processes a list of tasks using both normal foreach and Parallel.ForEach loops.
+
+Compare and explain the output.
+How does parallel processing improve performance in this scenario?
+
+
+---Ans---
+
+Bonus Challenge---
+
+For the bonus challenge, you would write a C# program that 
+processes tasks using both normal foreach and Parallel.ForEach loops, 
+comparing their outputs and explaining 
+how parallel processing enhances performance in scenarios with multiple tasks.

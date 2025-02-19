@@ -1,0 +1,31 @@
+1. Can a for loop run indefinitely? If yes, how?
+Ans = Yes, if the loop condition is not properly defined or updated inside the loop, 
+      a for loop can run indefinitely.
+
+2. How do you implement a loop using recursion instead of traditional looping constructs?
+Ans = Recursion involves a method calling itself to repeat until a base condition is met, 
+      instead of using traditional looping constructs.
+
+3. What is the impact of using goto inside loops? Is it recommended? Explain with an example.
+Ans = Using goto inside loops can lead to unreadable and hard-to-maintain code, and it's 
+      generally not recommended due to its potential to create spaghetti code.
+
+4. How does a foreach loop work internally in C#?
+Ans = Internally, foreach uses an enumerator to iterate over elements in a collection, 
+      ensuring type safety and efficient iteration.
+
+5. Can a foreach loop be replaced with a for loop? If yes, in what cases?
+Ans = In some cases, a foreach loop can be replaced with a for loop by manually managing an index, 
+      but it's less convenient and can be error-prone.
+
+6. How do you optimize performance in loops when working with large datasets?
+Ans = Use efficient algorithms, minimize unnecessary calculations inside loops, and 
+      consider parallel processing for large datasets.
+
+7. What are the best practices for writing efficient loops in C#?
+Ans = Avoid unnecessary computations inside loops, minimize loop iterations, use appropriate 
+      loop constructs for the task, and optimize data access.
+
+8. How does the Parallel.ForEach loop differ from a normal foreach loop? Provide an example.
+Ans = Parallel.ForEach executes iterations of the loop in parallel, leveraging multiple threads for improved performance, 
+      unlike a traditional foreach which is executed sequentially.

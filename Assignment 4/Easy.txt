@@ -1,0 +1,61 @@
+Section 1: Basic Questions
+
+
+1. What are the different types of loops in C#?
+Ans - C# supports several types of loops:
+    for loop
+    while loop
+    do-while loop
+    foreach loop
+
+2. Explain the syntax and working of the for loop in C#.
+Ans - Syntax and Working of the for loop:
+
+Syntax:
+csharp
+Copy
+Edit
+for (initialization; condition; iteration)
+{
+    // loop body
+}
+Explanation: The for loop initializes a variable, checks a condition, executes the loop body, and iterates until the condition is false.
+
+
+3. How does a while loop work?
+Ans - How a while loop works:
+
+    Syntax:
+    csharp
+    Copy
+    Edit
+    while (condition)
+    {
+        // loop body
+    }
+    Explanation: The while loop executes its body as long as the condition remains true.
+
+
+4. What is the difference between a while loop and a do-while loop?
+Ans - The main difference is that a while loop checks the condition before executing the loop body, 
+      while a do-while loop checks the condition after executing the loop body at least once.
+
+5. What happens if the loop condition in a while loop is initially false?
+Ans - If the condition is false initially, the loop body will never execute, 
+      and the program will continue with the code following the loop.
+
+6. How do you use a foreach loop in C#?
+Ans - Syntax:
+    csharp
+    Copy
+    Edit
+    foreach (var item in collection)
+    {
+        // loop body
+    }
+    Explanation: The foreach loop iterates over each element 
+    in a collection (like arrays, lists, etc.) without explicitly using an index.
+
+7. Can we modify elements inside a foreach loop? Why or why not?
+Ans - Elements cannot be modified directly inside a foreach loop because it iterates over the collection using an iterator, 
+      and modifying the collection itself isn't allowed during iteration.
